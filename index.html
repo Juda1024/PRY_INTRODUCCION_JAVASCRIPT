@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion JS</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <h1>Hola mundo</h1>
+    <a href="./sumadosnumeros.html">Ir a la pagina de suma</a> 
+
+    <script>   
+        // lert("Hola mundo divertido");
+        //console.log("Hola mundo divertido");
+        var capturar_nombre_completo = prompt("Ingrese sus nombres completos :");
+        var capturar_apellido_completo = prompt("Ingrese sus apellidos completos :");
+        var edad = prompt("Ingrese su edad :");
+        var color_favorito = prompt("Ingrese su color favorito :");
+        var musica_favorita = prompt("Ingrese su musica favorita :");
+        var deporte_favorito = prompt("Ingrese su deporte favorito :");
+        var pregunta_final = prompt("¿Que es javascript? ");
+        var pregunta_final_dos = prompt("¿Como se llama su profe de programacion we? ");
+
+
+        //otra forma
+        //var resultado=`mi nombre es ${capturar_nombre_completo} y mis apellidos son ${capturar_apellido_completo}, mi edad es ${edad} años, ademas mi color favorito es ${color_favorito} y mi cancion favorita es ${musica_favorita} porque es mi musica favorita y cuendo era niño me gustaba el  ${deporte_favorito}, y javascript ${pregunta_final} mi profe se llama ${pregunta_final_dos}`;
+        //console.log(resultado);
+
+        console.log("Mi nombre es " + capturar_nombre_completo + " y mis apellidos son " + capturar_apellido_completo + ", mi edad es " + edad + " años, ademas mi color favorito es " + color_favorito + " y mi cancion favorita es " + musica_favorita + " porque es mi musica favorita y cuendo era niño me gustaba el  " + deporte_favorito + ", y javascript " + pregunta_final + " mi profe se llama " + pregunta_final_dos);
+    </script>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
